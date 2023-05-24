@@ -7,5 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Engels Immanuel",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daeon97/GeohashingLayer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Daeon97/GeohashingLayer/issues"
+  },
+  "homepage": "https://github.com/Daeon97/GeohashingLayer#readme"
 }
