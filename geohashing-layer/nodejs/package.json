@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Daeon97/GeohashingLayer/issues"
   },
-  "homepage": "https://github.com/Daeon97/GeohashingLayer#readme"
+  "homepage": "https://github.com/Daeon97/GeohashingLayer#readme",
+  "dependencies": {
+    "geohashing": "^1.1.2"
+  }
 }

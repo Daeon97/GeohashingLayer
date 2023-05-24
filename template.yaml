@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: Geohashing dependency layer to be used across lambda functions
+
+Resources:
+  GeohashingLayer:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: GeohashingLayer
+      Description: Geohashing dependency layer to be used across lambda functions
+      LicenseInfo: "MIT"
+      ContentUri: ./geohashing-layer
+      CompatibleRuntimes:
+        - nodejs16.x
+    Metadata:
+      BuildMethod: nodejs16.x
+      
