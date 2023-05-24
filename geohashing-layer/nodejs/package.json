@@ -1,0 +1,11 @@
+{
+  "name": "geohashing-layer",
+  "version": "1.0.0",
+  "description": "Geohashing dependency layer to be used across lambda functions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Engels Immanuel",
+  "license": "MIT"
+}
