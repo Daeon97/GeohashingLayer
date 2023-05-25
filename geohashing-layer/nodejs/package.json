@@ -10,12 +10,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Daeon97/GeohashingLayer.git"
+    "url": "git+https://github.com/Daeon97/Innov8LambdaLayers.git"
   },
   "bugs": {
-    "url": "https://github.com/Daeon97/GeohashingLayer/issues"
+    "url": "https://github.com/Daeon97/Innov8LambdaLayers/issues"
   },
-  "homepage": "https://github.com/Daeon97/GeohashingLayer#readme",
+  "homepage": "https://github.com/Daeon97/Innov8LambdaLayers#readme",
   "dependencies": {
     "geohashing": "^1.1.2"
   }
