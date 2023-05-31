@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Transform: AWS::Serverless-2016-10-31
-Description: Geohashing dependency layer to be used across lambda functions
+Description: Innov8's lambda layers to be used across lambda functions
 
 Resources:
   GeohashingLayer:
@@ -9,9 +9,9 @@ Resources:
       LayerName: GeohashingLayer
       Description: Geohashing dependency layer to be used across lambda functions
       LicenseInfo: "MIT"
-      ContentUri: ./geohashing-layer
+      ContentUri: ./geohashing-layer/nodejs
       CompatibleRuntimes:
         - nodejs16.x
+      RetentionPolicy: Delete
     Metadata:
       BuildMethod: nodejs16.x
-      
