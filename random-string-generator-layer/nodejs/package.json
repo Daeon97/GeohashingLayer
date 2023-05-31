@@ -1,0 +1,22 @@
+{
+  "name": "random-string-generator-layer",
+  "version": "1.0.0",
+  "description": "Random string generator dependency layer to be used across lambda functions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daeon97/Innov8LambdaLayers.git"
+  },
+  "author": "Engels Immanuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Daeon97/Innov8LambdaLayers/issues"
+  },
+  "homepage": "https://github.com/Daeon97/Innov8LambdaLayers#readme",
+  "dependencies": {
+    "random-string-generator": "^1.0.1"
+  }
+}

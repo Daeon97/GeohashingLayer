@@ -15,3 +15,16 @@ Resources:
       RetentionPolicy: Delete
     Metadata:
       BuildMethod: nodejs16.x
+
+  RandomStringGeneratorLayer:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: RandomStringGeneratorLayer
+      Description: Random string generator layer to be used across lambda functions
+      LicenseInfo: "MIT"
+      ContentUri: ./random-string-generator-layer/nodejs
+      CompatibleRuntimes:
+        - nodejs16.x
+      RetentionPolicy: Delete
+    Metadata:
+      BuildMethod: nodejs16.x
