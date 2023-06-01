@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Daeon97/Innov8LambdaLayers.git"
+    "url": "git+https://github.com/klughammer/node-randomstring.git"
   },
-  "author": "Engels Immanuel",
+  "author": "klughammer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Daeon97/Innov8LambdaLayers/issues"
+    "url": "https://github.com/klughammer/node-randomstring/issues"
   },
-  "homepage": "https://github.com/Daeon97/Innov8LambdaLayers#readme",
+  "homepage": "https://github.com/klughammer/node-randomstring#readme",
   "dependencies": {
-    "random-string-generator": "^1.0.1"
+    "randomstring": "^1.2.3"
   }
 }

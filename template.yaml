@@ -12,19 +12,19 @@ Resources:
       ContentUri: ./geohashing-layer/nodejs
       CompatibleRuntimes:
         - nodejs16.x
-      RetentionPolicy: Delete
+      RetentionPolicy: Retain
     Metadata:
       BuildMethod: nodejs16.x
 
-  RandomStringGeneratorLayer:
+  RandomStringLayer:
     Type: AWS::Serverless::LayerVersion
     Properties:
-      LayerName: RandomStringGeneratorLayer
-      Description: Random string generator layer to be used across lambda functions
+      LayerName: RandomStringLayer
+      Description: Random string layer to be used across lambda functions
       LicenseInfo: "MIT"
-      ContentUri: ./random-string-generator-layer/nodejs
+      ContentUri: ./random-string-layer/nodejs
       CompatibleRuntimes:
         - nodejs16.x
-      RetentionPolicy: Delete
+      RetentionPolicy: Retain
     Metadata:
       BuildMethod: nodejs16.x

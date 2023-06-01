@@ -6,16 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Engels Immanuel",
+  "author": "arseny034",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Daeon97/Innov8LambdaLayers.git"
+    "url": "git+https://github.com/arseny034/geohashing.git"
   },
   "bugs": {
-    "url": "https://github.com/Daeon97/Innov8LambdaLayers/issues"
+    "url": "https://github.com/arseny034/geohashing/issues"
   },
-  "homepage": "https://github.com/Daeon97/Innov8LambdaLayers#readme",
+  "homepage": "https://github.com/arseny034/geohashing#readme",
   "dependencies": {
     "geohashing": "^1.1.2"
   }
